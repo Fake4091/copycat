@@ -36,3 +36,32 @@ body {
   padding: 3%;
   margin: 0;
 }
+
+.button {
+  color: #fff;
+  border: 1px solid #727272;
+  border-radius: 28px;
+  width: 50%;
+  align-self: center;
+  font-size: 12pt;
+  font-weight: 515;
+  padding: 1.5%;
+  margin: 1%;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.button:hover {
+  border: 1px solid #fff;
+}
+
+.button img {
+  padding: 0 10px;
+  float: left;
+}
+
+.login hr {
+  border: 0.5px solid rgba(114, 114, 144, 0.3);
+  width: 77%;
+  margin: 5% 0;
+  align-self: center;
+}
