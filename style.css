@@ -196,10 +196,16 @@ label:active:after {
 }
 
 .footer {
-  font-size: 9pt;
+  font-size: 8pt;
   background-color: #121212;
   width: 100%;
   position: absolute;
   bottom: -100;
   left: 0;
+  color: #a7a7a7;
+  padding: 2% 0;
+}
+
+footer a {
+  color: #a7a7a7;
 }
