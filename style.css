@@ -43,6 +43,23 @@ form input:hover {
   border: 1px solid #fff;
 }
 
+form input[type="submit"] {
+  align-self: center;
+  padding: 5%;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  margin: 4% 0;
+  font-weight: 600;
+  color: #000000;
+  background-color: #1fdf64;
+  border-radius: 28px;
+}
+
+form input[type="submit"]:hover {
+  border: 2px solid #1fdf64;
+}
+
 .logo {
   height: 36px;
   padding: 0 8px;
@@ -110,6 +127,7 @@ form input:hover {
 }
 
 input[type="checkbox"] {
+  margin: 10% 0;
   height: 0;
   width: 0;
   visibility: hidden;
@@ -149,4 +167,39 @@ input:checked + label:after {
 
 label:active:after {
   width: 26px;
+}
+
+.forgot {
+  text-align: center;
+  padding: 5% 0;
+}
+
+.forgot a {
+  color: #ffffff;
+}
+
+.forgot a:hover {
+  color: #1ed760;
+}
+
+.signup {
+  margin: 10% 0 5% 0;
+  color: #a7a7a7;
+}
+
+.signup a {
+  color: #ffffff;
+}
+
+.signup a:hover {
+  color: #1ed760;
+}
+
+.footer {
+  font-size: 9pt;
+  background-color: #121212;
+  width: 100%;
+  position: absolute;
+  bottom: -100;
+  left: 0;
 }
